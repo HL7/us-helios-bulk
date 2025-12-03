@@ -1,5 +1,3 @@
-// This is a simple example of a FSH file.
-// This file can be renamed, and additional FSH files can be added.
 // SUSHI will look for definitions in any file using the .fsh ending.
 
 Instance:		phBulkExportExampleScenario
@@ -53,12 +51,12 @@ Usage: 		#example
 * process[0].postConditions = "The IIS recieves, validates and ingests the immunization event data, performing patient identification (and if necessary deduplication) and stores the data in association with the individual's record."
 * process[0].step[0].operation[0].number = "1"
 * process[0].step[0].operation[0].type = "eventSubmission"
-* process[0].step[0].operation[0].name = "Immunization Event Submission"
+* process[0].step[0].operation[0].name = "Immunization Administration Event Submission"
 * process[0].step[0].operation[0].initiator = "eventSubmitters"
 * process[0].step[0].operation[0].receiver = "IIS"
 * process[0].step[0].operation[0].request.resourceId = "event"
 * process[0].step[0].operation[0].description = "The Immunization Event Submitter generates a valid HL7 v2 VXU message and submits it to the IIS."
-* process[1].title = "Patient Identification"
+* process[1].title = "Patient Identification Query"
 * process[1].description = "The process of identifying individual(s) of interest in the Immunization program system."
 * process[1].preConditions = "The Authorized User must have enough patient demographics to assure a reasonable chance of matching the patient. The Authorized User and Immunization Program must support a common method of patient identification."
 * process[1].postConditions = "The Authorized User is able to persist the Patient resouce ID(s) returned so that a cohort of individuals can be created."
@@ -70,7 +68,7 @@ Usage: 		#example
 * process[1].step[0].operation[0].request.resourceId = "patientIdentification"
 * process[1].step[0].operation[0].response.resourceId = "patientReturn"
 * process[1].step[0].operation[0].description = "Patient demographics are exchanged between the Authorized User and the Immunization Program to positively identify cognate individual(s) of interest in both systems."
-* process[2].title = "Cohort Creation"
+* process[2].title = "Cohort Create or Update"
 * process[2].description = "The Authorized User creates or updates a cohort of individuals of interest that will be the focus of a bulk data query."
 * process[2].preConditions = "The Authorized User knows the Immunization Program's FHIR Patient IDs for the individuals in the cohort."
 * process[2].postConditions = "The Immunization Program maintains a cohort list for the Authorized User."
@@ -81,7 +79,7 @@ Usage: 		#example
 * process[2].step[0].operation[0].receiver = "IIS"
 * process[2].step[0].operation[0].request.resourceId = "cohortRequest"
 * process[2].step[0].operation[0].description = "Using the identified Patient resources, the Authorized User creates and maintains a cohort of individuals of interest."
-* process[3].title = "Bulk Export"
+* process[3].title = "Bulk Data Export"
 * process[3].description = "The process of retrieving relevant data on a population of individuals as per the Bulk Data Access FHIR Implementation Guide."
 * process[3].preConditions = "The Immunization Program knows the cohort of individuals of interest to the Authorized User."
 * process[3].postConditions = "The Authorized User validates and consumers the bulk data returned by the Immunization Program and makes it available to end users or system activities."

@@ -9,11 +9,15 @@ This document covers the following topics:
 - Methods for identifying and grouping individuals
 - Approaches for executing bulk queries
 
-This document is produced by the [Helios FHIR Accelerator](https://confluence.hl7.org/display/PH/Helios+FHIR+Accelerator+for+Public+Health+Home) for Public Health [Bulk Data Priority Area](https://confluence.hl7.org/display/PH/Bulk+Data). This group of volunteers examined potential uses of Bulk Data exchange to understand the approaches data exchange partners may adopt and to identify considerations for implementers. While the Bulk Data Priority Area has focused on sharing immunization-related data, the information in this document is also applicable to other public health data-sharing scenarios. Additionally, although this document is developed for the US context, it may be relevant to other regions as well.
-
 The [Bulk FHIR data access](https://hl7.org/fhir/uv/bulkdata/) method facilitates the sharing of data on populations of individuals and is a Priority Area for the Helios FHIR Accelerator for Public Health. This approach allows users of Electronic Health Records (EHR) systems and other electronic platforms to utilize the carefully curated data managed by public health programs. By implementing FHIR Bulk data, authorized users can efficiently retrieve data for defined groups through a standardized and reusable method. This process enables public health systems to generate and transmit essential information quickly while reducing the time and effort needed to respond to data requests in proprietary and custom formats.
 
 This document focuses on providing authorized users access to immunization information maintained by jurisdictional immunization programs. Although the Helios FHIR Accelerator has concentrated on an immunization use case, the Bulk Data method and considerations discussed here are relevant to other data-sharing scenarios critical to public health activities.
+
+### Contributers
+
+![Helios Logo](Helios-logo.jpg){:style="float: right; width:200px;margin-right:35px; display: block;"}
+
+This document is produced by the [Helios FHIR Accelerator](https://confluence.hl7.org/display/PH/Helios+FHIR+Accelerator+for+Public+Health+Home) for Public Health [Bulk Data Priority Area](https://confluence.hl7.org/display/PH/Bulk+Data). This group of volunteers examined potential uses of Bulk Data exchange to understand the approaches data exchange partners may adopt and to identify considerations for implementers. While the Bulk Data Priority Area has focused on sharing immunization-related data, the information in this document is also applicable to other public health data-sharing scenarios. Additionally, although this document is developed for the US context, it may be relevant to other regions as well.
 
 ### Mechanism for Bulk Query
 
@@ -30,3 +34,9 @@ For more details, please refer to the [Argonaut 2024 Bulk Optimize Project](http
 ### Summary
 
 The work of the Helios Bulk Data Priority Area, outlined in this document, aims to provide a foundation for immunization programs and Authorized Users to implement this functionality. All interested organizations are invited to join the Helios Priority Area to collaborate on pilot testing and the eventual production exchange of immunization data. To suggest alternative use cases for other data sets, please contact the Leads of the Priority Area to schedule further discussions about your needs.
+
+# Dependencies
+{% lang-fragment dependency-table-nontech.xhtml %}
+
+# IP Statements
+{% lang-fragment ip-statements.xhtml %}
