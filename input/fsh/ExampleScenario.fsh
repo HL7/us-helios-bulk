@@ -4,7 +4,7 @@ Instance:		phBulkExportExampleScenario
 InstanceOf: 	ExampleScenario
 Title:       	"Public Health Bulk Export Example"
 Description:    "ExampleScenario instance illustrating how the FHIR Bulk Data Access paradigm can be applied to the retrieveal of public health immunization data."
-Usage: 		    #example
+Usage: 		    #definition
 * version = "1.0.0"
 * name = "PublicHealthBulkExportExample"
 * status = #active "Active"
