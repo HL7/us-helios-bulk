@@ -2,10 +2,11 @@
 
 Instance:		phBulkExportExampleScenario
 InstanceOf: 	ExampleScenario
-Description: 	"Public Health Bulk Export Example"
-Usage: 		#example
+Title:       	"Public Health Bulk Export Example"
+Description:    "ExampleScenario instance illustrating how the FHIR Bulk Data Access paradigm can be applied to the retrieveal of public health immunization data."
+Usage: 		    #example
 * version = "1.0.0"
-* name = "Public Health Bulk Export (Immunization) Example"
+* name = "PublicHealthBulkExportExample"
 * status = #active "Active"
 * publisher = "Helios FHIR Accelerator"
 * purpose = "This ExampleScenario describes the actors and processes associated with a Bulk Export of data from an Immunization Program for by use by an Authorized User."
