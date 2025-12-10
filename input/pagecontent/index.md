@@ -30,13 +30,18 @@ However, the Argonaut FHIR Accelerator, which sponsors the Implementation Guide 
 
 For more details, please refer to the [Argonaut 2024 Bulk Optimize Project](https://confluence.hl7.org/display/AP/Bulk+Optimize) site.
 
-
 ### Summary
 
 The work of the Helios Bulk Data Priority Area, outlined in this document, aims to provide a foundation for immunization programs and Authorized Users to implement this functionality. All interested organizations are invited to join the Helios Priority Area to collaborate on pilot testing and the eventual production exchange of immunization data. To suggest alternative use cases for other data sets, please contact the Leads of the Priority Area to schedule further discussions about your needs.
 
-# Dependencies
+### Dependencies
 {% lang-fragment dependency-table-nontech.xhtml %}
 
-# IP Statements
+### IP Statements
 {% lang-fragment ip-statements.xhtml %}
+
+### Global Profiles Table
+{% lang-fragment globals-table.xhtml %}
+
+### Cross Version Analysis
+{% lang-fragment cross-version-analysis.xhtml %}
