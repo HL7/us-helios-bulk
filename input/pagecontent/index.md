@@ -17,7 +17,9 @@ This document focuses on providing authorized users access to immunization infor
 
 ![Helios Logo](Helios-logo.jpg){:style="float: right; width:200px;margin-right:35px; display: block;"}
 
-This document is produced by the [Helios FHIR Accelerator](https://confluence.hl7.org/display/PH/Helios+FHIR+Accelerator+for+Public+Health+Home) for Public Health [Bulk Data Priority Area](https://confluence.hl7.org/display/PH/Bulk+Data). This group of volunteers examined potential uses of Bulk Data exchange to understand the approaches data exchange partners may adopt and to identify considerations for implementers. While the Bulk Data Priority Area has focused on sharing immunization-related data, the information in this document is also applicable to other public health data-sharing scenarios. Additionally, although this document is developed for the US context, it may be relevant to other regions as well.
+This document is produced by the [Helios FHIR Accelerator](https://confluence.hl7.org/display/PH/Helios+FHIR+Accelerator+for+Public+Health+Home) for Public Health [Bulk Data Priority Area](https://confluence.hl7.org/display/PH/Bulk+Data). This group of volunteers examined potential uses of Bulk Data exchange to understand the approaches data exchange partners may adopt and to identify considerations for implementers. While the Bulk Data Priority Area has focused on sharing immunization-related data, the information in this document is also applicable to other public health data-sharing scenarios. 
+
+Additionally, although this document is developed for the US context, it may be relevant to other regions as well.
 
 ### Mechanism for Bulk Query
 
