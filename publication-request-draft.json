@@ -1,0 +1,15 @@
+{
+  "package-id" : "hl7.fhir.us.ph-bulk-data",
+  "version" : "2.0.0-ballot",
+  "path" : "http://hl7.org/fhir/us/ph-bulk-data/2026May",
+  "mode" : "working",
+  "status" : "ballot",
+  "sequence" : "Informative 2",
+  "desc" : "The updated publication of the original PDF-published version of the informational white paper.",
+  "changes" : "change.html",
+  "first" : true,
+  "title" : "Bulk Retrieval of Public Health Data",
+  "ci-build" : "https://build.fhir.org/ig/HL7/us-helios-bulk/en/index.html",
+  "category" : "Public Health",
+  "introduction" : "This document is designed to assist public health professionals in understanding the capabilities of Bulk FHIR and to promote a unified method across the sector. The Bulk FHIR data access method facilitates the sharing of data on populations of individuals and is a Priority Area for the Helios FHIR Accelerator for Public Health. This approach allows users of Electronic Health Records (EHR) systems and other electronic platforms to utilize the carefully curated data managed by public health programs. By implementing FHIR Bulk data, authorized users can efficiently retrieve data for defined groups through a standardized and reusable method. This process enables public health systems to generate and transmit essential information quickly while reducing the time and effort needed to respond to data requests in proprietary and custom formats.",
+}
