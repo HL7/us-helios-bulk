@@ -1,8 +1,4 @@
 == Suppressed Messages ==
 
-# Add warning and/or information messages here after you've confirmed that they aren't really a problem
-# (And include comments like this justifying why)
-# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
-
-# The "SHALL" is part of a quoted passage from the Bulk Data Access FHIR IG which explains the various parameters. The Helios document does not add any additional conformance requirements.
-INFORMATION: en/technical.html: The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause: '_type            Server Usage: Optional       Client Usage: Optional       Description: A string of comma-delimited FHIR resource types. The response SHALL be filtered to only include resources of the specified resource types(s). 
+# 01: The "SHALL" is part of a quoted passage from the Bulk Data Access FHIR IG which explains the various parameters. The Helios document does not add any additional conformance requirements.
+INFORMATION: en/technical.html: The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause: '_type            Server Usage: Optional       Client Usage: Optional       Description: A string of comma-delimited FHIR resource types. The response SHALL be filtered to only include resources of the specified resource types(s).        ' 
