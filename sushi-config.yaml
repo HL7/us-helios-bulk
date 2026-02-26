@@ -50,13 +50,13 @@ pages:
   v2Dynamic.md:
     title: V2-Mediated (Dynamic Group Creation)
   FHIRIndividual.md:
-    title: FHIR-Mediated (Individual Matching)
+    title: FHIR-Mediated (Individual)
   FHIRBulk.md:
-    title: FHIR-Mediated (Bulk Matching)
+    title: FHIR-Mediated (Bulk)
   flatfile.md:
-    title: Flat File Mediated Matching
+    title: Flat File Mediated
   existing.md:
-    title: Reuse of Existing Groups
+    title: Resue of Existing Groupings
   userInterface.md:
     title: Online User Interface
   subscription.md:
@@ -75,10 +75,10 @@ menu:
     Patient Identiifcation and Group Creation: identification.html
     V2-Mediated (Automatic Group Creation): v2Automatic.html
     V2-Mediated (Dynamic Group Creation): v2Dynamic.html
-    FHIR-Mediated (Individual Matching): FHIRIndividual.html
-    FHIR-Mediated (Bulk Matching): FHIRBulk.html
-    Flat File Mediated Matching:  flatfile.html
-    Reuse of Existing Groups:  existing.html
+    FHIR-Mediated (Individual): FHIRIndividual.html
+    FHIR-Mediated (Bulk): FHIRBulk.html
+    Flat File Mediated:  flatfile.html
+    Reuse of Existing Groupings:  existing.html
     Online User Interface: userInterface.html
     FHIR Subscription:  subscription.html
   Artifacts: artifacts.html
