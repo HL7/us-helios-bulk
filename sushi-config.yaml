@@ -72,7 +72,7 @@ menu:
   Technical Concepts: technical.html
   Partner Expectations: roles.html
   Cohort Creation:
-    Patient Identiifcation and Group Creation: identification.html
+    Patient Identifcation and Group Creation: identification.html
     V2-Mediated (Automatic Group Creation): v2Automatic.html
     V2-Mediated (Dynamic Group Creation): v2Dynamic.html
     FHIR-Mediated (Individual): FHIRIndividual.html
