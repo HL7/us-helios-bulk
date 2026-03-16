@@ -4,4 +4,4 @@
 
 ### Version 1.0.0
 
-- Original publication in PDF format
+- Original publication in [PDF format](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=669)
