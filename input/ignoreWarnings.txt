@@ -6,7 +6,8 @@ INFORMATION: en/technical.html: The html source contains the word 'SHALL' but it
 # 02: The differences are that the main Jira Spec Artifact contains a version 1.0.0 which is the original PDF publication version. This is not in the IG publisher jira-new.xml
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
 
-# 03: This is an issue with the core spec (per Marc Duteau)
-INFORMATION: ExampleScenario​.jurisdiction[0] (l1​/c690): Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
-INFORMATION: ImplementationGuide​.jurisdiction[0] (l1​/c1854): Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+# 03: This is an issue with the core spec (per Marc Duteau for ballot on 3/17/2026)
+INFORMATION: ExampleScenario/phBulkExportExampleScenario: ExampleScenario.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+INFORMATION: ImplementationGuide/hl7.fhir.us.ph-bulk-data: ImplementationGuide.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 
+#04: Related to ExampleScenario and the IG publisher (OK to suppress for ballot per Lloyd on 3/17/2026)
