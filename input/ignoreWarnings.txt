@@ -21,3 +21,13 @@ ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/di
 ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 19410: The link 'node4' for "details" cannot be resolved
 ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 20311: The link 'node12' for "Bulk Data Export" cannot be resolved
 ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 21738: The link 'node12' for "response" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 9714: The link 'node1' for "details" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 10900: The link 'node6' for "Immunization Administration Event Submission" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 12539: The link 'node2' for "details" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 13361: The link 'node8' for "Patient Identification Query" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 15046: The link 'node8' for "response" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 16811: The link 'node3' for "details" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 17701: The link 'node10' for "Cohort Create or Update" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 19386: The link 'node4' for "details" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 20288: The link 'node12' for "Bulk Data Export" cannot be resolved
+ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 21714: The link 'node12' for "response" cannot be resolved
