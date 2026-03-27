@@ -11,16 +11,6 @@ INFORMATION: ExampleScenario/phBulkExportExampleScenario: ExampleScenario.jurisd
 INFORMATION: ImplementationGuide/hl7.fhir.us.ph-bulk-data: ImplementationGuide.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 
 # 04: Related to ExampleScenario and the IG publisher (Ok to suppress for ballot per FMG QA review on 3/17/2026) (see https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/ExampleScenario.20errors/with/574541506)
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 9722: The link 'node1' for "details" cannot be resolved
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 10907: The link 'node6' for "Immunization Administration Event Submission" cannot be resolved
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 12552: The link 'node2' for "details" cannot be resolved
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 13373: The link 'node8' for "Patient Identification Query" cannot be resolved
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 15058: The link 'node8' for "response" cannot be resolved
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 16831: The link 'node3' for "details" cannot be resolved
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 17720: The link 'node10' for "Cohort Create or Update" cannot be resolved
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 19410: The link 'node4' for "details" cannot be resolved
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 20311: The link 'node12' for "Bulk Data Export" cannot be resolved
-ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 21738: The link 'node12' for "response" cannot be resolved
 ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 9714: The link 'node1' for "details" cannot be resolved
 ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 10900: The link 'node6' for "Immunization Administration Event Submission" cannot be resolved
 ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 12539: The link 'node2' for "details" cannot be resolved
