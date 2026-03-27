@@ -6,18 +6,14 @@ INFORMATION: en/technical.html: The html source contains the word 'SHALL' but it
 # 02: The differences are that the main Jira Spec Artifact contains a version 1.0.0 which is the original PDF publication version. This is not in the IG publisher jira-new.xml (see https://chat.fhir.org/#narrow/channel/184932-JIRA.2FConfluence/topic/How.20to.20handle.20a.20specification.20key.20change/with/576132153)
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
 
-# 03: This is an issue with the core spec (per FMG QA review for ballot on 3/17/2026)
-INFORMATION: ExampleScenario/phBulkExportExampleScenario: ExampleScenario.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
-INFORMATION: ImplementationGuide/hl7.fhir.us.ph-bulk-data: ImplementationGuide.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
-
 # 04: Related to ExampleScenario and the IG publisher (Ok to suppress for ballot per FMG QA review on 3/17/2026) (see https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/ExampleScenario.20errors/with/574541506)
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 9714: The link 'node1' for "details" cannot be resolved
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 10900: The link 'node6' for "Immunization Administration Event Submission" cannot be resolved
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 12539: The link 'node2' for "details" cannot be resolved
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 13361: The link 'node8' for "Patient Identification Query" cannot be resolved
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 15046: The link 'node8' for "response" cannot be resolved
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 16811: The link 'node3' for "details" cannot be resolved
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 17701: The link 'node10' for "Cohort Create or Update" cannot be resolved
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 19386: The link 'node4' for "details" cannot be resolved
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 20288: The link 'node12' for "Bulk Data Export" cannot be resolved
-ERROR: en\ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 21714: The link 'node12' for "response" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 9722: The link 'node1' for "details" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 10907: The link 'node6' for "Immunization Administration Event Submission" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 12552: The link 'node2' for "details" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 13373: The link 'node8' for "Patient Identification Query" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 15058: The link 'node8' for "response" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 16831: The link 'node3' for "details" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 17720: The link 'node10' for "Cohort Create or Update" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/a at Line 325, column 19410: The link 'node4' for "details" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 20311: The link 'node12' for "Bulk Data Export" cannot be resolved
+ERROR: en/ExampleScenario-phBulkExportExampleScenario.html#/html/body/div/div/div/div/div/svg/g/g/a at Line 325, column 21738: The link 'node12' for "response" cannot be resolved
